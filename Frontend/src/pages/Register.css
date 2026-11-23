@@ -1,0 +1,43 @@
+/* Register Page Custom Styling */
+
+.register-card {
+    max-width: 450px;
+}
+
+.register-card .form-heading {
+    margin-bottom: 27px;
+}
+
+.register-card .form-group {
+    margin-bottom: 19px;
+}
+
+/* Registration Success Message */
+
+.register-card .auth-message.success {
+    background: #22c55e1a;
+    border: 1px solid #22c55e66;
+    color: #86efac;
+}
+
+/* Registration Error Message */
+
+.register-card .auth-message.error {
+    background: #ef44441a;
+    border: 1px solid #ef444455;
+    color: #fca5a5;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+
+    .register-card {
+        max-width: 450px;
+    }
+
+    .register-card .form-heading h2 {
+        font-size: 26px;
+    }
+
+}
